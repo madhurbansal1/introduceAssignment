@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+struct userStruct
+{
+    var firebaseId:String
+    var name:String
+    var phoneNumber:Int
+    var gender:String
+    var age:Int
+    var city:String
+    var imageStr:String
+}
