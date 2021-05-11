@@ -49,6 +49,7 @@ public class firebaseManager
                         let dateOfBirth = dateFormatter.date(from: DOBStr)
                         let age = dateOfBirth?.age
                         let element = userStruct(firebaseId: firebaseId, name: name, phoneNumber: number, gender: gender, age: age!, city: city, imageStr: imageStr)
+                        print(element)
                         userArray.append(element)
                     }
                     completion(userArray)
